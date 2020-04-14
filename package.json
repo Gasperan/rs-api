@@ -1,17 +1,18 @@
 {
-  "name": "rs-api",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "fastify": "2.13.1"
-  },
-  "devDependencies": {
-    "husky": "4.2.5",
-    "jest": "^25.3.0",
-    "prettier": "^2.0.4",
-    "pretty-quick": "^2.0.1"
-  },
-  "scripts": {
-    "start": "node src/index"
-  }
+    "name": "rs-api",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "fastify": "2.13.1",
+        "mongodb": "3.5.5"
+    },
+    "devDependencies": {
+        "husky": "4.2.5",
+        "jest": "^25.3.0",
+        "prettier": "^2.0.4",
+        "pretty-quick": "^2.0.1"
+    },
+    "scripts": {
+        "start": "node src/index"
+    }
 }
