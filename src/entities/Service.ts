@@ -1,13 +1,13 @@
 import { Entity, PrimaryColumn, Column } from 'typeorm'
 
 @Entity()
-export default class Volunteer {
+export default class Service {
     @PrimaryColumn()
-    rut!: number
+    id!: string
 
     @Column()
     name!: string
 
     @Column()
-    email!: string
+    isActive!: boolean
 }
